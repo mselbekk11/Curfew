@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff'); /* IE9 Compat Modes */
+    src: url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff') format('woff2'), /* Super Modern Browsers */
+         url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff') format('woff'), /* Pretty Modern Browsers */
+         url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff')  format('truetype'), /* Safari, Android, iOS */
+         url('https://res.cloudinary.com/mselbekk-com/raw/upload/v1600855030/RousseauDeco_o3svmm.woff') format('svg'); /* Legacy iOS */
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: "open sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    border: 15px solid #baa573;
+    padding:0px 20px;
+  }
+  
+  .container {
+    max-width: 700px;
+    min-height: 500px;
+    text-align: center;
+  }
+
+  .container img {
+    max-width: 400px;
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    }
+
+    .underline{
+    width: 370px;
+    height: 4px;
+    background-color:#baa573;
+    margin: 0 auto;
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+    }
+
+
+    h1 {
+    font-family: MyWebFont;
+    font-size: 30px;
+    color: #baa573;
+    margin: 20px 0px 0px;
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: .5s;
+    }
+
+
+
+    p {
+    font-family: MyWebFont;
+    color: #fff;
+    font-size: 17px;
+    }
+
+    p.one {
+    margin-top: 50px;
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: 1s
+    }
+
+    p.two {
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: 1.5s
+    }
+
+    p.three {
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: 2s
+    }
+
+    p.four {
+    animation: FadeIn 1s linear;
+    animation-fill-mode: both;
+    animation-delay: 2.5s;
+    }
+
+
+
+    @keyframes FadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
