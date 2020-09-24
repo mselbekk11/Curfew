@@ -118,3 +118,26 @@
         0% {opacity:0;}
         100% {opacity:1;}
         }
+
+
+
+        @media only screen and (max-width: 800px) {
+            body {
+                padding: 0px 60px;
+            }
+          }
+
+          @media only screen and (max-width: 600px) {
+
+            body {
+                padding: 0px 60px;
+            }
+            
+            .container img {max-width: 300px;}
+
+            h1 {font-size:25px;}
+
+            .underline {width: 300px;}
+
+            p {font-size: 15px;}
+          }
