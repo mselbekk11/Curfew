@@ -145,18 +145,18 @@
           }
 
 
-          @media only screen and (max-width: 400px) {
+          @media only screen and (max-width: 420px) {
 
             body {
-                padding: 0px 40px;
+                padding: 0px 30px;
             }
 
-            .container img {max-width: 250px;}
+            .container img {max-width: 210px;}
 
-            h1 {font-size:20px;}
+            h1 {font-size:18px;}
 
-            .underline {width: 250px;}
+            .underline {width: 210px;}
 
-            p {font-size: 12px;}
+            p {font-size: 10px;}
 
           }
