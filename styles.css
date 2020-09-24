@@ -39,7 +39,7 @@
     }
 
     .underline{
-    width: 370px;
+    max-width: 370px;
     height: 4px;
     background-color:#baa573;
     margin: 0 auto;
@@ -127,17 +127,36 @@
             }
           }
 
+
+
           @media only screen and (max-width: 600px) {
 
             body {
-                padding: 0px 60px;
+                padding: 0px 40px;
             }
-            
+
             .container img {max-width: 300px;}
 
             h1 {font-size:25px;}
 
-            .underline {width: 300px;}
+            .underline {max-width: 300px;}
 
             p {font-size: 15px;}
+          }
+
+
+          @media only screen and (max-width: 400px) {
+
+            body {
+                padding: 0px 40px;
+            }
+
+            .container img {max-width: 250px;}
+
+            h1 {font-size:20px;}
+
+            .underline {width: 250px;}
+
+            p {font-size: 12px;}
+
           }
