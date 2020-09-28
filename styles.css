@@ -53,7 +53,7 @@
     font-family: MyWebFont;
     font-size: 30px;
     color: #baa573;
-    margin: 20px 0px 0px;
+    margin: 50px 0px 0px;
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
     animation-delay: .5s;
@@ -62,13 +62,14 @@
 
 
     p {
-    font-family: MyWebFont;
+    /* font-family: MyWebFont; */
+    /* font-family: Arial, Helvetica, sans-serif; */
     color: #fff;
     font-size: 17px;
     }
 
     p.one {
-    margin-top: 50px;
+    margin-top: 30px;
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
     animation-delay: 1s
@@ -91,6 +92,12 @@
     animation-fill-mode: both;
     animation-delay: 2.5s;
     }
+
+    p.five {
+      animation: FadeIn 1s linear;
+      animation-fill-mode: both;
+      animation-delay: 3s;
+      }
 
 
 
@@ -125,6 +132,10 @@
             body {
                 padding: 0px 60px;
             }
+
+            p br {
+              display: none;
+            }
           }
 
 
@@ -133,6 +144,7 @@
 
             body {
                 padding: 0px 40px;
+                border: 10px solid #baa573;
             }
 
             .container img {max-width: 300px;}
