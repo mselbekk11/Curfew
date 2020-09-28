@@ -38,29 +38,6 @@
     animation-fill-mode: both;
     }
 
-    .underline{
-    max-width: 370px;
-    height: 4px;
-    background-color:#baa573;
-    margin: 0 auto;
-    animation: FadeIn 1s linear;
-    animation-fill-mode: both;
-    animation-delay: .5s;
-    }
-
-
-    h1 {
-    font-family: MyWebFont;
-    font-size: 30px;
-    color: #baa573;
-    margin: 50px 0px 0px;
-    animation: FadeIn 1s linear;
-    animation-fill-mode: both;
-    animation-delay: .5s;
-    }
-
-
-
     p {
     /* font-family: MyWebFont; */
     /* font-family: Arial, Helvetica, sans-serif; */
@@ -72,32 +49,56 @@
     margin-top: 30px;
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
-    animation-delay: 1s
+    animation-delay: 0.5s
     }
 
     p.two {
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
-    animation-delay: 1.5s
+    animation-delay: 1s
     }
 
     p.three {
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
-    animation-delay: 2s
+    animation-delay: 1.5s
     }
 
     p.four {
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
-    animation-delay: 2.5s;
+    animation-delay: 2s;
     }
 
     p.five {
       animation: FadeIn 1s linear;
       animation-fill-mode: both;
-      animation-delay: 3s;
+      animation-delay: 2.5s;
       }
+
+      h1 {
+        font-family: MyWebFont;
+        font-size: 30px;
+        color: #baa573;
+        margin: 50px 0px 0px;
+        animation: FadeIn 1s linear;
+        animation-fill-mode: both;
+        animation-delay: 3s;
+        }
+
+      .underline{
+        max-width: 370px;
+        height: 4px;
+        background-color:#baa573;
+        margin: 0 auto;
+        animation: FadeIn 1s linear;
+        animation-fill-mode: both;
+        animation-delay: 3s;
+        }
+    
+    
+
+    
 
 
 
