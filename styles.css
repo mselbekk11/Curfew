@@ -47,6 +47,8 @@
     margin: 10px 0px!important;
     }
 
+    p br {display: none;}
+
     p.one {
     margin-top: 40px!important;
     animation: FadeIn 1s linear;
@@ -173,6 +175,12 @@
             .container img {max-width: 300px;}
 
             p {font-size: 18px;}
+
+            p br {display: block;}
+
+            p.one {margin-top: 30px!important;}
+
+            .social {margin-top: 25px;}
           }
 
 
