@@ -15,14 +15,15 @@
 
   
   body {
-    font-family: "open sans", sans-serif;
+    /* font-family: "open sans", sans-serif; */
+    font-family: 'Teko', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #000000;
-    border: 15px solid #baa573;
+    background-color: #fff;
+    /* border: 15px solid #baa573; */
     padding:0px 20px;
   }
   
@@ -41,12 +42,13 @@
     p {
     /* font-family: MyWebFont; */
     /* font-family: Arial, Helvetica, sans-serif; */
-    color: #fff;
-    font-size: 17px;
+    color: #000;
+    font-size: 25px;
+    margin: 10px 0px!important;
     }
 
     p.one {
-    margin-top: 30px;
+    margin-top: 40px!important;
     animation: FadeIn 1s linear;
     animation-fill-mode: both;
     animation-delay: 0.5s
@@ -76,7 +78,13 @@
       animation-delay: 2.5s;
       }
 
-      h1 {
+    p.six {
+      animation: FadeIn 1s linear;
+      animation-fill-mode: both;
+      animation-delay: 3s;
+      }
+
+      /* h1 {
         font-family: MyWebFont;
         font-size: 30px;
         color: #baa573;
@@ -94,8 +102,23 @@
         animation: FadeIn 1s linear;
         animation-fill-mode: both;
         animation-delay: 3s;
-        }
+        } */
     
+
+        .social {
+          width: 100%;
+          margin: 0 auto;
+          margin-top: 30px;
+        }
+
+        .social img {
+          width: 50px;
+          display: inline-block;
+          margin: 0px 10px;
+          animation: FadeIn 1s linear;
+          animation-fill-mode: both;
+          animation-delay: 3.5s;
+        }
     
 
     
@@ -129,13 +152,13 @@
 
 
 
-        @media only screen and (max-width: 800px) {
+        @media only screen and (max-width: 780px) {
             body {
                 padding: 0px 60px;
             }
 
-            p br {
-              display: none;
+            p {
+              font-size: 20px;
             }
           }
 
@@ -145,16 +168,11 @@
 
             body {
                 padding: 0px 40px;
-                border: 10px solid #baa573;
+                /* border: 10px solid #baa573; */
             }
-
             .container img {max-width: 300px;}
 
-            h1 {font-size:25px;}
-
-            .underline {max-width: 300px;}
-
-            p {font-size: 15px;}
+            p {font-size: 18px;}
           }
 
 
@@ -166,10 +184,6 @@
 
             .container img {max-width: 210px;}
 
-            h1 {font-size:18px;}
-
-            .underline {width: 210px;}
-
-            p {font-size: 10px;}
+            p {font-size: 16px;}
 
           }
